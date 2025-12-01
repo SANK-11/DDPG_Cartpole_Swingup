@@ -40,7 +40,8 @@ A deterministic evaluation is performed using a fixed seed (e.g.,
 seed=10). The RecordVideo wrapper saves evaluation episodes as MP4
 files.
 
-[![Click to watch](thumbnail.png)](videos/trained_seed0/eval-episode-0.mp4)
+
+[Watch evaluation video (GitHub Issue)](https://github.com/SANK-11/DDPG_Cartpole_Swingup/issues/1#issue-3678739723)
 
 
 
