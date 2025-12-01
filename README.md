@@ -15,8 +15,8 @@ learning curve plot.
 DDPG (Deep Deterministic Policy Gradient) is an off-policy actor--critic
 reinforcement learning algorithm designed for continuous action spaces.
 It uses: - A deterministic actor network\
-- A critic network to estimate Q-values\
-- Gaussian noise for exploration\
+- A critic network to estimate Q-values
+- Gaussian noise for exploration
 - Target networks for stabilization
 
 DDPG is sensitive to noise and hyperparameters, which makes seed
@@ -30,9 +30,6 @@ comparison especially important.
 -   Seeds: `0`, `1`, `2`
 -   Noise: NormalActionNoise (σ = 0.1)
 
-Outputs :
-
-    weights/ddpg_cartpole_seed1    logs/seed_X.monitor.csv
 
 ## Evaluation Videos
 
