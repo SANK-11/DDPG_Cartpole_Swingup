@@ -40,7 +40,7 @@ A deterministic evaluation is performed using a fixed seed (e.g.,
 seed=10). The RecordVideo wrapper saves evaluation episodes as MP4
 files.
 
-![DDPG Evaluation – Seed 1](videos/ddpg_trained_seed1/eval-episode-0.mp4)
+![DDPG Evaluation – Seed 1](videos/trained_seed0/eval-episode-0.mp4)
 
 ## Learning Curve
 
