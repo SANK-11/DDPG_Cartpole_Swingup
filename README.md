@@ -39,23 +39,33 @@ Outputs :
 A deterministic evaluation is performed using a fixed seed (e.g.,
 seed= 0,1,2). The RecordVideo wrapper saves evaluation episodes as MP4
 files.
+1. Seed-0 Training
 
-Seed0 Training
-![Seed0 Training ](videos/trained_seed0/eval-episode-0.gif)
+   ![Seed-0 Training](videos/trained_seed0/eval-episode-0.gif)
 
+2. Seed-1 Training
+
+   ![Seed-1 Training](videos/trained_seed1/eval-episode-0.gif)
+
+3. Seed-2 Training
+
+   ![Seed-2 Training](videos/trained_seed2/eval-episode-0.gif)
 
 
 ## Learning Curve
 
 A minimalist training curve is generated using the logged monitor
-files.\
-The output image (modifiable) might be saved as:
+files.
 
-    ddpg_eval_simple.png
+![DDPG Learning Curve](ddpg_evalution_check.png)
+
+
 
 ## Performance Notes
 
-DDPG learns the swingup task by: 1. Exploring with noisy actions to
+
+DDPG learns the swingup task by: 
+1. Exploring with noisy actions to
 build momentum\
 2. Discovering a trajectory that swings the pole upward\
 3. Using precise torque control to stabilize the pole
